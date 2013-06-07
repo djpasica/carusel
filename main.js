@@ -1,12 +1,15 @@
-var elementsAmount = 6; //скільки виводим
-var elements = ["Element 1", "Element 2", "Element 3", "Elemnt 4", "Element 5", "Element 6", "Element 7", "Element 8"];
+var elementsAmount = 3; //скільки виводим
+
+var elements = {};
+
 var elementsBlock = null;
 
 function init() {	
 	$(elementsBlock).empty();
 	
 	for (var i = 0; i < elementsAmount; i++) {
-		$(elementsBlock).append('<div class="inline element">'+elements[i]+'</div>');
+		
+		$(elementsBlock).append('<div class="inline element">{name}<br/>{desc}</div>'.printf(elements[i]));
 	}
 }
 

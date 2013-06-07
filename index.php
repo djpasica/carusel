@@ -4,6 +4,7 @@
 
 <script src="jquery-2.0.2.min.js" type="text/javascript"></script>
 <script src="main.js" type="text/javascript"></script>
+<script src="printf.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
 
 </head>
